@@ -1,0 +1,6 @@
+.hugo_build.lock
+hugo_stats.json
+/public/
+/resources/_gen/
+
+.DS_Store

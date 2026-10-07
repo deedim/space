@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ .Content }}
+<content>
+  <ul class="blog-posts">
+    {{ with site.GetPage "/blog" }}
+    {{ range .Pages }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ else }}
+    <li>
+      No posts yet
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
+</content>
+{{ end }}
