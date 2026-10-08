@@ -4,3 +4,6 @@ hugo_stats.json
 /resources/_gen/
 
 .DS_Store
+
+/node_modules/
+/.wrangler/

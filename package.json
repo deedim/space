@@ -1,0 +1,24 @@
+{
+  "name": "space",
+  "version": "1.0.0",
+  "description": "space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deedim/space.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/deedim/space/issues"
+  },
+  "homepage": "https://github.com/deedim/space#readme",
+  "devDependencies": {
+    "wrangler": "^4.148.0"
+  }
+}
